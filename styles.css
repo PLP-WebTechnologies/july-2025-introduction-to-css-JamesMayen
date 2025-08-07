@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Main Content Layout */
+main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Box Model - Card Style */
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: calc(50% - 20px); /* Two cards per row */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Highlighted Card */
+.highlight {
+  border-color: #007BFF;
+  background-color: #e9f5ff;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
